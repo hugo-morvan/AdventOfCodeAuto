@@ -1,0 +1,16 @@
+# Environment variables
+.env
+
+# Dont track personal puzzle inputs (optional, test input too)
+*/*/input.txt
+# day*/*/test.txt
+
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
