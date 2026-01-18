@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"flag"
 	"os"
+	"fmt"
 )
 
 var useTest = flag.Bool("t", false, "use test input")
@@ -12,8 +13,10 @@ func InputFile() string {
 	flag.Parse()
 
 	if *useTest {
+		fmt.Println("Running with test inputs...")
 		return "test.txt"
 	}
+	fmt.Println("Running with full inputs...")
 	return "input.txt"
 }
 
