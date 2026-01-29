@@ -9,14 +9,18 @@ import (
 func main() {
 	lines := utils.ReadLines(utils.InputFile())
 
-	fmt.Println("Part 1:", solvePart1(lines))
-	fmt.Println("Part 2:", solvePart2(lines))
+	fmt.Println("Part 1:", solvePartOne(lines))
+	fmt.Println("Part 2:", solvePartTwo(lines))
 }
 
-func solvePart1(lines []string) int {
-	return 0
+func solvePartOne(lines []string) int {
+	total := 0
+	
+	return total
 }
 
-func solvePart2(lines []string) int {
-	return 0
+func solvePartTwo(lines []string) int {
+	total := 0
+	
+	return total
 }
